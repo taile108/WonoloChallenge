@@ -1,0 +1,29 @@
+
+# Environment
+- Window 10
+- Firefox v46 (WonoloChallenge/src/main/resources/)
+- Eclipse
+- Maven
+- Selenium 2.53.1
+- JDK 1.8
+
+# Import project
+GitHub: https://github.com/taile108/WonoloChallenge.git
+Import libraries: //WonoloChallenge/src/main/resources/
+
+# Execute tests
+Right click on TestSuite1 -> Run as -> JUnit
+
+# View reports:
+Open WonoloChallenge/target/TestReports/ExtentRepost.html
+
+#Issues
+- Maven pom.xml does not import some jar: junit, extentReports.
+- Selenium 3.x - driver.quit() does not work
+
+#Need to enhance:
+- Structure of framework
+- Selenium 3.x 
+- Newest browser
+- ExtentReports
+
